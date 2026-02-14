@@ -11,3 +11,15 @@
 
 **Dashboard Overview:**
 ![NIRF](NIRF.png)
+
+# Project 2
+
+**Title:** SQL Data Definition Language-Sales Data 
+
+**SQL Code:** [Sales Data](https://github.com/MOladunni/MOladunni.github.io/blob/main/Sales_Data.sql)
+
+**SQL Skills Used:**
+
+**Project Description:**
+
+**Technology used:** SQL server
