@@ -3,14 +3,14 @@
 # Project 1
 **Title:** 
 
-**Tools Used:** Microsoft Excel (Pivot table, Pivot chart, power query editor, slicers, conditional formatting, text box)
+**Tools Used:** Microsoft Excel (Pivot table, Pivot chart, Power Query editor, slicers, conditional formatting, text box)
 
 **Project Description:** 
 
 **Key findings:**
 
 **Dashboard Overview:**
-![NIRF](NIRF.png)
+
 
 # Project 2
 
