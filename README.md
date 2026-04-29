@@ -53,7 +53,7 @@ Currency: Most funds have their domiciliary currency in the dollar, giving insig
 
 **Dashboard Overview:**
 
-This dashboard serves as a crucial information tool for the iShares investment management team and marketing team, providing clear, actionable insights that drive informed investment decision-making and strategic marketing planning.
+This dashboard serves as a crucial information tool for the iShares management team and marketing team, providing clear, actionable insights that drive informed investment decision-making and strategic marketing planning.
 
 
 # Project 2
