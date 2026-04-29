@@ -52,10 +52,10 @@ Top-Performing Asset: Show the asset that is performing the best, which investor
 Currency: Most funds have their domiciliary currency in the dollar, giving insight to the marketing team for the USA customers. 
 
 **Dashboard Overview:**
-![Screenshot 2026-04-29 143215](Screenshot 2026-04-29 143215.png)
+![Screenshot 2026-04-29 143215](https://github.com/MOladunni/MOladunni.github.io/blob/main/Screenshot%202026-04-29%20143215.png)
 
 
-This dashboard serves as a crucial information tool for the iShares management team and marketing team, providing clear, actionable insights that drive informed investment decision-making and strategic marketing planning.
+This dashboard is a key tool for the iShares management and marketing teams, offering clear, actionable insights to support investment decisions for their investors and marketing planning.
 
 
 # Project 2
