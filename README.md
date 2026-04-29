@@ -13,7 +13,7 @@ Total Funds in Each Region: Help stakeholders to know which region to focus on w
 
 Total funds available by currency: Displays different currencies and the funds available in them to guide against currency fluctuation risk and to help investors know how many funds are available to invest in with their local currency.
 
-Total Funds by Asset Class: Highlights the total funds available in different asset classes, which allows stakeholders to diversify their risk and not just focus on a single asset class and allows them to build different investment objectives based on their strategy.
+Total Funds by Asset Class: Highlights the total funds available in different asset classes, which allows stakeholders to diversify their risk and not just focus on a single asset class and allows them to build different investment objectives based on their strategy, effective for marketing strategy. 
 
 10 Years Cumulative Performance by percentage: Gives insight into the best performing region to invest in to maximise profit
 
@@ -39,23 +39,21 @@ Asset class: Display the various asset classes available, trends and performance
 Key Skills: Data cleaning, financial modelling, dashboards, data storytelling.
 
 **Key findings:**
+Regional: Identified the most performing region and highlighted regions where performance is low for further investigation.
 
+Asset class: Highlighted the largest asset class and the lowest asset class, which can be improved
 
-Regional : Identified the most performing region and highlighted regions where performance is low for further investigation.
+Net Asset: Discovered the region with the largest net asset and the region with the lowest net asset, which can be improved upon
 
-Asset class: Highlighted the largest asset class and the lowest asset class which can be improved
+Taxation: The majority of funds are tax-free, which could be a marketing strategy for the UK market
 
-Net Asset: Discovered the region with the largest net asset and the region with the lowest net asset which can be improved upon
+Top-Performing Asset: Show the asset that is performing the best, which investors can invest in
 
-Taxation: Majority of funds are tax free for the UK market which could a marketing strategy for UK market
-
-Top-Performing Asset: Showed the asset that is performing the best which stakeholders can invest in
-
-Currency: Most fund has their domiciule currency in the dollars giving insight to the marketing team for the USA custormers. 
+Currency: Most funds have their domiciliary currency in the dollar, giving insight to the marketing team for the USA customers. 
 
 **Dashboard Overview:**
 
-This dashboard serves as a crucial information tool for Ishares investment management team and marketing team, providing clear, actionable insights that drive informed investment decision-making and strategic marketing planning.
+This dashboard serves as a crucial information tool for the iShares investment management team and marketing team, providing clear, actionable insights that drive informed investment decision-making and strategic marketing planning.
 
 
 # Project 2
