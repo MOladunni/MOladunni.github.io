@@ -7,7 +7,7 @@
 
 **Project Description:** This project was focused on key financial indicators to evaluate the investment performance of selected assets and regions over a 30-year period from 1996 to 2023. This dashboard allows stakeholders to easily monitor and analyse the performance of these assets across regions, funds available in each asset class for investors to invest in, taxable and non-taxable funds, assets available by currencies, and time periods performance. The dashboard includes the following features:
 
-Top 10 Largest Assets by Net Asset Value: A visual representation of the top 10 assets by their net asset value to help investors know which fund to invest in
+Top 10 Largest Assets by Net Asset Value: A visual representation of the top 10 assets by their net asset value to help investors know which fund to invest in based on demand
 
 Total Funds in Each Region: Help stakeholders to know which region to focus on with a variety of investment options for regional diversification.
 
