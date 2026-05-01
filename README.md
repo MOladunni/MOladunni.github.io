@@ -1,6 +1,46 @@
 # Data Analytics portfolio
 
 # Project 1
+**Title:** SALES DASHBOARD FOR CUSTOMERS' ORDERS IN INDIA
+
+**Tools Used:** Microsoft Excel (Pivot table, Pivot chart, Power Query editor, slicers, conditional formatting, text box)
+
+**Project Description:** This project involved analysing customer orders in India to identify trends and patterns in sales performance for 2022. It is designed to provide a comprehensive overview of key performance metrics. This dashboard allows stakeholders to easily monitor and analyse customers' behaviour and patterns across different products, states, sales channels, gender and time periods. The dashboard includes the following features:
+Top 5 States by Total Sales: This displays the states with the highest total sales. Helping the management know where to focus more marketing efforts.
+
+Total Sales by Channels: Gives a vivid view of the channels that customers are using to make their orders, and the worst on the list, to be able to cut costs
+
+Category Order Channels: Since the company has several categories of products, management needs to know which product best fits a sales channel, so that management can best serve customers and make more sales.
+
+Order Status Performance: To help track the end-to-end sales process and to track performance for improvement. 
+
+Order by Gender: Provides clarity in customer categories by gender for marketing purposes.
+
+Total Sales by Categories: Gives insight into the best product category and the worst category for management decision-making.
+
+**Key findings:**
+State Sales: Identified the state with the highest sales and highlighted states where sales performance could be improved
+
+Seasonal Trends: Revealed patterns in sales that correspond with seasonal events, allowing for more strategic planning.
+
+Top-Performing Products Category: Highlight which products are driving the most revenue, aiding in inventory and marketing decisions.
+
+Top-Performing Sales Channel: Highlighted which channels are driving the most revenue, aiding in inventory and marketing decisions.
+
+Sales Category by Sales Channel: Highlighted which products are driving the most revenue by sales Channel, aiding in inventory and marketing decisions.
+
+Sales by Gender: Displayed customer categories by Gender to support management and marketing decisions.
+
+Sales Volatility: Analysed monthly sales fluctuations to understand market dynamics and adjust business strategies accordingly.
+
+**Dashboard Overview:**
+
+
+This dashboard is a key tool for the iShares management and marketing teams, offering clear, actionable insights to support investment decisions for their investors and marketing planning.
+
+
+
+# Project 2
 **Title:** iShares-United Kingdom Fund Report
 
 **Tools Used:** Microsoft Excel (Pivot table, Pivot chart, Power Query editor, slicers, conditional formatting, text box)
