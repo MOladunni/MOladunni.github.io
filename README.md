@@ -34,7 +34,7 @@ Sales by Gender: Displayed customer categories by Gender to support management a
 Sales Volatility: Analysed monthly sales fluctuations to understand market dynamics and adjust business strategies accordingly.
 
 **Dashboard Overview:**
-![Screenshot 2026-05-01 064204](https://github.com/MOladunni/MOladunni.github.io/blob/main/Screenshot%202026-05-01%20064204.png)
+![](https://github.com/MOladunni/MOladunni.github.io/blob/main/SALES%20DASHBOARD%20FOR%20CUSTOMERS%20ORDERS%20IN%20INDIA.png)
 
 This dashboard is a key tool for the iShares management and marketing teams, offering clear, actionable insights to support investment decisions for their investors and marketing planning.
 
