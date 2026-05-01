@@ -45,16 +45,7 @@ Sales Volatility: Analysed monthly sales fluctuations to understand market dynam
 
 This dashboard is a key tool for the iShares management and marketing teams, offering clear, actionable insights to support investment decisions for their investors and marketing planning.
 
-
 # Project 2
-**Title:** DYLYTICS WAREHOUSE AND RETAIL UK SALES DASHBOARD
-
-**Tools Used:** Microsoft Excel (Pivot table, Pivot chart, Power Query editor, slicers, conditional formatting, text box)
-
-**Project Description:** This project involved analysing Dylytics company sales data to identify trends and patterns in sales performance for Dylytics wholesale and retail customers. It is designed to provide a comprehensive overview of key performance metrics. This dashboard allows stakeholders to easily monitor and analyse the company’s performance across different customers, products, and time periods. The dashboard includes the following features:
-
-
-# Project 3
 **Title:** iShares-United Kingdom Fund Report
 
 **Tools Used:** Microsoft Excel (Pivot table, Pivot chart, Power Query editor, slicers, conditional formatting, text box)
