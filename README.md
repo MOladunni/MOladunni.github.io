@@ -173,6 +173,16 @@ Sales by Region: Produce visuals for the top five regions with the highest sales
 
 Sales Person: Indicate the sales persons generating the highest revenue for the organisation to help management study what strategies they are using to drive sales.
 
+Average Shipping Days: This gives insight into the average time it takes for the business to deliver orders from end to end. This can help management improve its process to boost customer's satisfaction. 
+
+**Key findings:**
+Cost of Business: The cost of running this business is very high compared to its revenue, management will need to restrategies to cut cost where possible
+
+Regional Sales: Western Europe region generate the highest sales share while Asia continent has the highest sales share by ontinent
+
+Shipping Days: The average shpping days is 3.97 days when compared with maximum days which is 7, there will be a need to improve average delivery date to improve custormers satisfaction.
+
+Product: Smart phones sales generate the largest share of sales and also the highest shipping cost giving insight for marketing focus
 **Title:** SQL Data Definition Language-Sales Data 
 
 **SQL Code:** [Sales Data](https://github.com/MOladunni/MOladunni.github.io/blob/main/Sales_Data.sql)
