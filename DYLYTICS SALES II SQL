@@ -1,0 +1,196 @@
+-- DATA MANIPULATION LANGUAGE
+-- Select * means select all (if you dont want to select all, then you have to type or drag in the specific column name you will need to interact)
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+
+SELECT DATE
+       ,DEPARTMENT
+       ,[INCIDENT COST]
+       ,[Plant]
+
+FROM [dbo].['Workplace Safety Data$']
+
+--SQL WHERE CLAUSE
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Plant] = 'Georgia'
+
+SELECT [Injury Location]
+       ,[Gender]
+       ,[Department]
+       ,[Plant]
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Plant] != 'Georgia'
+
+SELECT [Injury Location]
+       ,[Gender]
+       ,[Department]
+       ,[Plant]
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Plant] = 'Georgia' and [Gender]= 'Male'
+
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Incident Type] <> 'fall'
+
+SELECT *
+FROM[dbo].['Workplace Safety Data$']
+WHERE [Plant] IN ('California','Ohio')
+
+SELECT *
+FROM[dbo].['Workplace Safety Data$']
+WHERE [Plant] NOT IN ('California','Ohio')
+
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Plant] = 'Georgia' AND [Incident Cost]> 1000
+
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Plant] = 'Georgia' OR [Incident Cost]> 1000
+
+-- WHERE PLANTS START WITH A
+SELECT*
+FROM ['Workplace Safety Data$']
+WHERE PLANT LIKE 'A%'
+
+-- WHERE INCIDENT TYPES START WITH C
+SELECT*
+FROM ['Workplace Safety Data$']
+WHERE [Incident Type] LIKE'C%'
+
+-- WHERE INCIDENT TYPES ENDS WITH E
+SELECT*
+FROM ['Workplace Safety Data$']
+WHERE [Incident Type] LIKE'%E'
+
+-- WHERE PLANTS HAS A REGARDLESS OF THE POSITION
+SELECT*
+FROM ['Workplace Safety Data$']
+WHERE PLANT LIKE '%A%'
+
+-- SQL TOP CLAUSE (in top clause, the select statement is run with the condition)
+-- SELECT TOP 6 ROLES
+SELECT TOP(6)*
+FROM ['Workplace Safety Data$']
+
+SELECT TOP(6)*
+FROM ['Workplace Safety Data$']
+WHERE [GENDER] IN ('MALE','FEMALE')
+
+-- TOP 5 PERCENT ROLE
+SELECT TOP 5 PERCENT *
+FROM [dbo].['Workplace Safety Data$']
+
+--ORDER BY CLAUSE (use to rank based on the order type command you give)
+-- top five with the higest incedent cost
+SELECT TOP(5)*
+FROM ['Workplace Safety Data$']
+ORDER BY [Incident Cost]DESC
+
+-- top SIX with the higest incedent cost in California
+SELECT TOP(6)*
+FROM ['Workplace Safety Data$']
+WHERE [Plant] = 'California'
+ORDER BY [Incident Cost]DESC
+
+-- top SIX with the higest incedent cost in California and florida
+SELECT TOP(6)*
+FROM ['Workplace Safety Data$']
+WHERE [Plant] in ('California','florida')
+ORDER BY [Incident Cost]DESC
+
+SELECT count (*)
+FROM ['Workplace Safety Data$']
+where [Incident Type]='burn'
+
+--Aggregate function min, max, mode, avg, sum and count function
+SELECT *
+FROM ['Workplace Safety Data$']
+
+SELECT SUM([Incident Cost]) AS TOTAL_COST
+FROM ['Workplace Safety Data$']
+
+SELECT MAX([Incident Cost]) AS HIGHEST_COST
+FROM ['Workplace Safety Data$']
+
+SELECT MIN([Incident Cost]) AS LOWEST_COST
+FROM ['Workplace Safety Data$']
+
+SELECT AVG([Incident Cost]) AS TOTAAVGL_COST
+FROM ['Workplace Safety Data$']
+
+SELECT COUNT(*)
+FROM [dbo].['Workplace Safety Data$']
+
+SELECT COUNT(*)
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Gender]= 'MALE'
+
+SELECT SUM ([Incident Cost]) AS INCIDENT_GROUP_TYPE
+FROM ['Workplace Safety Data$']
+WHERE [Incident Type] IN ('BURN','FALL')
+
+--GROUP BY STATEMENT
+SELECT [Report Type] AS INCIDENT_GROUP
+       ,SUM([Incident Cost]) AS INCIDENTCOST_GROUP
+FROM [dbo].['Workplace Safety Data$']
+GROUP BY [Report Type]
+
+SELECT [Plant] AS PLANT_GROUP
+       ,SUM([Incident Cost]) AS INCIDENTCOST_GROUP
+FROM [dbo].['Workplace Safety Data$']
+GROUP BY[Plant]
+
+SELECT [Plant] AS PLANT_GROUP
+       ,[Gender]
+       ,SUM([Incident Cost]) AS INCIDENTCOST_GROUP
+FROM [dbo].['Workplace Safety Data$']
+GROUP BY[Plant]
+        ,[Gender]
+
+SELECT [Plant] AS PLANT_GROUP
+       ,[Gender]
+       ,SUM([Incident Cost]) AS INCIDENTCOST_GROUP
+       ,AVG ([Incident Cost])AS AVGCOST_GROUP
+       ,COUNT(*)AS GROUP_COUNT
+FROM [dbo].['Workplace Safety Data$']
+GROUP BY[Plant]
+        ,[Gender]
+
+DELETE FROM [dbo].['Workplace Safety Data$']
+WHERE [Gender]= 'FEMALE' AND [Plant]= 'ALABAMA'
+
+SELECT [Plant] AS PLANT_GROUP
+       ,[Gender]
+       ,SUM([Incident Cost]) AS INCIDENTCOST_GROUP
+       ,AVG ([Incident Cost])AS AVGCOST_GROUP
+       ,COUNT(*)AS GROUP_COUNT
+FROM [dbo].['Workplace Safety Data$']
+GROUP BY[Plant]
+        ,[Gender]
+HAVING [Plant] IN ('ALABAMA','CALIFORNIA','GEORGIA')
+ORDER BY [Plant]ASC
+
+--Windows function
+---1. works as aggregate function
+----2.Rank function 
+-----3. Row number
+
+-- when you want to get a single number, which maybe used for forcast and you don't want the to number to change
+SELECT* 
+,SUM([Incident Cost]) OVER() AS FORCAST_GUIDE
+FROM [dbo].['Workplace Safety Data$']
+
+SELECT* 
+,SUM([Incident Cost]) OVER(PARTITION BY [Plant]) AS FORCAST_GUIDE
+FROM [dbo].['Workplace Safety Data$']
+
+--Row number is used to detect duplicate in your data set
+SELECT *
+        ,ROW_NUMBER() OVER (PARTITION BY [Gender] ORDER BY [Gender])
+FROM [dbo].['Workplace Safety Data$']
+
+SELECT *
+        ,RANK() OVER (PARTITION BY[Incident Cost]  ORDER BY[Plant] DESC)
+FROM [dbo].['Workplace Safety Data$']
