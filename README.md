@@ -117,6 +117,20 @@ The dashboard includes key metrics such as total revenue, total revenue by count
 
 The project highlights skills in data transformation using Power Query, data modeling, Schema, DAX calculations, and the creation of clear, user-friendly dashboards for business analysis.
 
+KPI Card: Provides a quick snapshot of overall business performance.
+
+Revenue by Country and State: Shows the proportion of total revenue contributed by each country. It helps compare market share distribution and logistic planning
+
+Order Date: Gives insight into days, seasons, or months with high demands for staffing, logistics and inventory management.
+
+Total Sales by Segment: Shows which of the business segments is generating more or less revenue for management decision making
+
+Shipping mode and order priority: Displays the mode of shipping for customers, peak periods for staff planning and management decisions
+
+Top and Bottom sales: Gives a numerical insight into the top 5 countries generating the highest revenue and the bottom 5 countries generating the lowest revenue for marketing and management decisions
+
+
+
 
 
 **Title:** SQL Data Definition Language-Sales Data 
