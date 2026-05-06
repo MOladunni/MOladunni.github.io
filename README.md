@@ -1,7 +1,7 @@
 # Data Analytics portfolio
 
 # Project 1
-**Title:** SALES DASHBOARD FOR CUSTOMERS' ORDERS IN INDIA
+**Title:** [SALES DASHBOARD FOR CUSTOMERS' ORDERS IN INDIA](https://github.com/MOladunni/MOladunni.github.io/blob/main/Copy%20of%2003%20-%20Data%20Analyst%20Excel%20Project.xlsx)
 
 **Tools Used:** Microsoft Excel (Pivot table, Pivot chart, Power Query editor, slicers, conditional formatting, text box)
 
