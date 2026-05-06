@@ -176,13 +176,15 @@ Sales Person: Indicate the sales persons generating the highest revenue for the 
 Average Shipping Days: This gives insight into the average time it takes for the business to deliver orders from end to end. This can help management improve its process to boost customer's satisfaction. 
 
 **Key findings:**
-Cost of Business: The cost of running this business is very high compared to its revenue, management will need to restrategies to cut cost where possible
+Cost of Business: The cost of running this business is very high compared to its revenue. Management will need to restructure to cut costs where possible
 
-Regional Sales: Western Europe region generate the highest sales share while Asia continent has the highest sales share by ontinent
+Regional Sales: The Western Europe region generates the highest sales share, while Asia continent has the highest sales share by continent
 
-Shipping Days: The average shpping days is 3.97 days when compared with maximum days which is 7, there will be a need to improve average delivery date to improve custormers satisfaction.
+Shipping Days: The average shipping days is 3.97 days when compared with the maximum days, which is 7. There will be a need to improve the average delivery date to improve customers' satisfaction.
 
-Product: Smart phones sales generate the largest share of sales and also the highest shipping cost giving insight for marketing focus
+Product: Smartphone sales generate the largest share of sales and also the highest shipping cost, giving insight for marketing focus
+
+[](https://github.com/MOladunni/MOladunni.github.io/blob/main/TECHDRIVE%20SALES%20REPORT%202.png)
 **Title:** SQL Data Definition Language-Sales Data 
 
 **SQL Code:** [Sales Data](https://github.com/MOladunni/MOladunni.github.io/blob/main/Sales_Data.sql)
