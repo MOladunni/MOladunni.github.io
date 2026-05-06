@@ -184,7 +184,7 @@ Shipping Days: The average shipping days is 3.97 days when compared with the max
 
 Product: Smartphone sales generate the largest share of sales and also the highest shipping cost, giving insight for marketing focus
 
-[](https://github.com/MOladunni/MOladunni.github.io/blob/main/TECHDRIVE%20SALES%20REPORT%202.png)
+![TECHDRIVE SALES REPORT 2.png](https://github.com/MOladunni/MOladunni.github.io/blob/main/TECHDRIVE%20SALES%20REPORT%202.png)
 **Title:** SQL Data Definition Language-Sales Data 
 
 **SQL Code:** [Sales Data](https://github.com/MOladunni/MOladunni.github.io/blob/main/Sales_Data.sql)
