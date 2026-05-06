@@ -46,7 +46,7 @@ Sales Volatility: Analysed monthly sales fluctuations to understand market dynam
 This dashboard is a key tool for the iShares management and marketing teams, offering clear, actionable insights to support investment decisions for their investors and marketing planning.
 
 # Project 2
-**Title:** iShares-United Kingdom Fund Report
+**Title:** [iShares-United Kingdom Fund Report](https://github.com/MOladunni/MOladunni.github.io/blob/main/iShares-United%20Kingdom%20Fund%20Report.xlsx)
 
 **Tools Used:** Microsoft Excel (Pivot table, Pivot chart, Power Query editor, slicers, conditional formatting, text box)
 
