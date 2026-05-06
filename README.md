@@ -40,10 +40,12 @@ Sales by Gender: Displayed customer categories by Gender to support management a
 
 Sales Volatility: Analysed monthly sales fluctuations to understand market dynamics and adjust business strategies accordingly.
 
+This dashboard is a key tool for the iShares management and marketing teams, offering clear, actionable insights to support investment decisions for their investors and marketing planning.
+
 **Dashboard Overview:**
 ![SALES DASHBOARD FOR CUSTOMERS ORDERS IN INDIA](https://github.com/MOladunni/MOladunni.github.io/blob/main/SALES%20DASHBOARD%20FOR%20CUSTOMERS%20ORDERS%20IN%20INDIA.png)
 
-This dashboard is a key tool for the iShares management and marketing teams, offering clear, actionable insights to support investment decisions for their investors and marketing planning.
+
 
 # Project 2
 **Title:** [iShares-United Kingdom Fund Report](https://github.com/MOladunni/MOladunni.github.io/blob/main/iShares-United%20Kingdom%20Fund%20Report.xlsx)
@@ -96,11 +98,11 @@ Top-Performing Asset: Show the asset that is performing the best, which investor
 
 Currency: Most funds have their domiciliary currency in the dollar, giving insight to the marketing team for the USA customers. 
 
+This dashboard is a key tool for the iShares management and marketing teams, offering clear, actionable insights to support investment decisions for their investors and marketing planning.
+
 **Dashboard Overview:**
 ![iShares-United Kingdom Fund Report](https://github.com/MOladunni/MOladunni.github.io/blob/main/iShares-United%20Kingdom%20Fund%20Report.png)
 
-
-This dashboard is a key tool for the iShares management and marketing teams, offering clear, actionable insights to support investment decisions for their investors and marketing planning.
 
 
 # Project 2
@@ -140,10 +142,12 @@ Growth Opportunities: Regions with lower revenue share present expansion opportu
 
 Cost Control: Management may consider cutting sales across the lowest performing countries for the home office business segment and re-strategies with other performing segments
 
+Conclusion: This dashboard serves as a crucial tool for the Dylytics Limited management team, providing clear, actionable insights that drive informed decision-making and strategic planning.
+
 **Dashboard Overview:**
 ![DYLYTICS SUPERSTORE SALES REPORT.png](https://github.com/MOladunni/MOladunni.github.io/blob/main/DYLYTICS%20SUPERSTORE%20SALES%20REPORT.png)
 
-Conclusion: This dashboard serves as a crucial tool for the Dylytics Limited management team, providing clear, actionable insights that drive informed decision-making and strategic planning.
+
 
 **Title:** SQL Data Definition Language-Sales Data 
 
