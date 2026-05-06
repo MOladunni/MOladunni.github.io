@@ -107,6 +107,16 @@ This dashboard is a key tool for the iShares management and marketing teams, off
 
 **Title:** [DYLYTICS SUPERSTORE SALES REPORT](https://github.com/MOladunni/MOladunni.github.io/blob/main/DYLYTICS%20SUPERSTORE%20SALES%20REPORT.pbix)
 
+Tool Used: Power BI, Power Query, DAX, Excel
+
+Techniques: Data cleaning, data modeling, interactive dashboard design, KPI development, Snowflake Schema, and data visualisation.
+
+Project Description: This project involves the design of an interactive Business Intelligence dashboard to evaluate Dylytics Limited's superstore performance from 2022 to 2023. It converts raw sales data into meaningful insights, allowing users to analyse trends across regions, time periods, Order priority, cost, shipping mode, and business segments.
+
+The dashboard includes key metrics such as total revenue, total revenue by country and state, highest sales and lowest sales by counties. The project was supported with visuals like maps, bar charts, tables, and trend analyses. Interactive slicers enable users to filter and explore the data for deeper business insights.
+
+The project highlights skills in data transformation using Power Query, data modeling, Schema, DAX calculations, and the creation of clear, user-friendly dashboards for business analysis.
+
 
 
 **Title:** SQL Data Definition Language-Sales Data 
