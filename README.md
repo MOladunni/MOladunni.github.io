@@ -191,7 +191,7 @@ Product: Smartphone sales generate the largest share of sales and also the highe
 
 **Title:** SQL Data Definition Language-Sales Data 
 
-**SQL Code:** [Sales Data](https://github.com/MOladunni/MOladunni.github.io/blob/main/Sales_Data.sql)
+**SQL Code:** [DYLYTICS SALES SQL](https://github.com/MOladunni/MOladunni.github.io/blob/main/DYLYTICS%20SALES%20SQL)
 
 **SQL Skills Used:**
 
