@@ -157,11 +157,21 @@ Tool Used: Power BI, Power Query, DAX, Excel
 
 Techniques: Data cleaning, data modeling, interactive dashboard design, KPI development, Snowflake Schema, and data visualisation.
 
-Project Description: This project involves the design of an interactive Business Intelligence dashboard to evaluate Dylytics Limited's superstore performance from 2022 to 2023. It converts raw sales data into meaningful insights, allowing users to analyse trends across regions, time periods, Order priority, cost, shipping mode, and business segments.
+Project Description: This project involves the design of an interactive Business Intelligence dashboard to evaluate Techdrive sales performance from 2025 to the 2026 financial year. It converts raw sales data into meaningful insights, allowing users to analyse trends across regions, time periods, Order priority, cost, shipping mode, and products.
 
-The dashboard includes key metrics such as total revenue, total revenue by country and state, highest sales and lowest sales by counties. The project was supported with visuals like maps, bar charts, tables, and trend analyses. Interactive slicers enable users to filter and explore the data for deeper business insights.
+The dashboard includes key metrics such as total revenue, Total cost, Sales by region, Sales persons, Order priority. The project was supported with visuals like maps, bar charts, tables, and trend analyses. Interactive slicers enable users to filter and explore the data for deeper business insights.
 
+Total Revenue: This card displays the total revenue for the year to measure KPI target
 
+Total cost: Display the cost of running the business, including shipping cost to help management make effective decisions when compared to revenue
+
+Total Profit: Gives insight into the profit of the business against business expenses and revenue to support cost management.
+
+Total Order: This visual will help management plan for inventory, logistics, and staffing based on seasonalities.
+
+Sales by Region: Produce visuals for the top five regions with the highest sales for strategic marketing and management purposes 
+
+Sales Person: Indicate the sales persons generating the highest revenue for the organisation to help management study what strategies they are using to drive sales.
 
 **Title:** SQL Data Definition Language-Sales Data 
 
