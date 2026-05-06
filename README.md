@@ -140,10 +140,10 @@ Growth Opportunities: Regions with lower revenue share present expansion opportu
 
 Cost Control: Management may consider cutting sales across the lowest performing countries for the home office business segment and re-strategies with other performing segments
 
-Conclusion: This dashboard serves as a crucial tool for the Dylytics Limited management team, providing clear, actionable insights that drive informed decision-making and strategic planning.
-
 **Dashboard Overview:**
+![DYLYTICS SUPERSTORE SALES REPORT.png](https://github.com/MOladunni/MOladunni.github.io/blob/main/DYLYTICS%20SUPERSTORE%20SALES%20REPORT.png)
 
+Conclusion: This dashboard serves as a crucial tool for the Dylytics Limited management team, providing clear, actionable insights that drive informed decision-making and strategic planning.
 
 **Title:** SQL Data Definition Language-Sales Data 
 
