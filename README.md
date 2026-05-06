@@ -129,8 +129,20 @@ Shipping mode and order priority: Displays the mode of shipping for customers, p
 
 Top and Bottom sales: Gives a numerical insight into the top 5 countries generating the highest revenue and the bottom 5 countries generating the lowest revenue for marketing and management decisions
 
+**Key findings:**
+Regional Revenue Distribution: The USA generates the highest share of total revenue, followed by Australia, France, Mexico and China, and Rest of World contribute moderately, indicating potential growth markets.
 
+Same-day delivery: It has the highest cost of shipping, but generates only 5.26% of total sales. Management may consider whether this service is necessary  
 
+Order Priority: Highest sales are mostly medium order priority, and the next is high priority, making plans for more staffing and logistics management
+
+Growth Opportunities: Regions with lower revenue share present expansion opportunities and also offers potential to increase market penetration through targeted strategies.
+
+Cost Control: Management may consider cutting sales across the lowest performing countries for the home office business segment and re-strategies with other performing segments
+
+Conclusion: This dashboard serves as a crucial tool for the Dylytics Limited management team, providing clear, actionable insights that drive informed decision-making and strategic planning.
+
+**Dashboard Overview:**
 
 
 **Title:** SQL Data Definition Language-Sales Data 
