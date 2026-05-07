@@ -43,7 +43,7 @@ Sales Volatility: Analysed monthly sales fluctuations to understand market dynam
 This dashboard is a key tool for the iShares management and marketing teams, offering clear, actionable insights to support investment decisions for their investors and marketing planning.
 
 **Dashboard Overview:**
-![SALES DASHBOARD FOR CUSTOMERS ORDERS IN INDIA](github.com/MOladunni/MOladunni.github.io/blob/main/SALES%20DASHBOARD%20FOR%20CUSTOMERS%20ORDERS%20IN%20INDIA.png)
+![SALES DASHBOARD FOR CUSTOMERS ORDERS IN INDIA](https://github.com/MOladunni/MOladunni.github.io/blob/main/SALES%20DASHBOARD%20FOR%20CUSTOMERS%20ORDERS%20IN%20INDIA.png)
 
 
 
