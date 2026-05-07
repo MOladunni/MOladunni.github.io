@@ -353,6 +353,8 @@ The insights generated can support safety managers, HR teams, and operations lea
 # Project 7
 **Title:** Employee Information Data Project Using SQL Data Manipulation Language
 
+**SQL Codes:**[EMPLOYEES INFO DATA](https://github.com/MOladunni/MOladunni.github.io/blob/main/Employees%20Data%20SQL)
+
 **Project Description**
 This project explores employee demographic and job‑related information using SQL Server.
 It demonstrates strong proficiency in Data Manipulation Language (DML), string functions, date functions, joins, table creation, and conditional filtering.
