@@ -240,7 +240,7 @@ It reflects the SQL skills I use in analytics, reporting, and data engineering e
 
 
 
-# Project 5
+# Project 6
 **Title:** Workplace Safety Data Analysis Using SQL Data Manipulation Language Project
 
 **SQL Codes:** [DYLYTICS WORK SAFETY RECORDS](https://github.com/MOladunni/MOladunni.github.io/blob/main/DYLYTICS%20SALES%20II%20SQL)
@@ -335,7 +335,7 @@ Duplicate patterns detected using ROW_NUMBER()
 ROW_NUMBER() OVER(PARTITION BY Gender ORDER BY Gender)  
 This helps identify repeated or suspicious entries for data quality checks.
 
-Conclusion
+**Conclusion**
 This project demonstrates strong analytical capability using DML operations to extract meaningful insights from workplace safety data.
 Through filtering, grouping, aggregations, and window functions, the analysis highlights:
 
