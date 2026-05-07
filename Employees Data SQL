@@ -1,0 +1,163 @@
+--TABLE--
+SELECT *
+FROM ['Employee Info$'];
+
+--Write a query to fetch the EmpFname from the EmployeeInfo table in the upper case and use the ALIAS name as EmpName.
+select upper (EmpFname) as EmpName
+FROM [dbo].['Employee Info$'];
+
+--Write a query to fetch the number of employees working in the department ‘HR’.
+SELECT count (*)
+FROM [dbo].['Employee Info$']
+where [Department]= 'HR'
+
+--Write a query to get the current date.
+SELECT getdate () AS TODAYS_DATE_TIME
+
+--Write a query to retrieve the first four characters of  EmpLname from the EmployeeInfo table.
+SELECT EmpLname, LEFT (EmpLname,4) AS First_4_char
+FROM [dbo].['Employee Info$']
+
+--Write a query to fetch number of strings from the Address column and EmpLname column in the EmployeeInfo table.
+SELECT [Address], EmpLname,
+LEN ( [address]),
+LEN ( EmpLname)
+from [dbo].['Employee Info$']
+
+SELECT [Address],
+LEN ( [address])
+from [dbo].['Employee Info$']
+SELECT EmpLname,
+LEN ( EmpLname)
+from [dbo].['Employee Info$']
+
+--Write a query to fetch only the place name(string before brackets) from the Address column of EmployeeInfo table.
+SELECT [Address], 
+left ([Address],charindex('(', [Address])-1) AS New_address
+from ['Employee Info$']
+
+--Write a query to fetch only the (string inbetween brackets) from the Address column of EmployeeInfo table.
+SELECT [Address],
+right([address], len([address])- charindex('(', [address])+1)  as PostCode
+from ['Employee Info$']
+
+--Write a query to create a new table that consists of data and structure copied from the other table.
+SELECT*
+FROM [dbo].['Employee position$']
+
+SELECT* INTO COPY_EMPLOYEESPOSITION
+FROM [dbo].['Employee position$']
+
+SELECT *
+FROM COPY_EMPLOYEESPOSITION
+
+
+--Write a query to find all the employees whose salary is between 50000 to 100000.
+SELECT *
+FROM COPY_EMPLOYEESPOSITION
+WHERE [SALARY] BETWEEN 50000 AND 100000
+
+--Write a query to find all the employees whose salary is between 50000 to 100000 and EmpPosition is manager
+SELECT *
+FROM COPY_EMPLOYEESPOSITION
+WHERE [SALARY] BETWEEN 50000 AND 100000 and EmpPosition = 'manager'
+
+--Write a query to find the names of employees that begin with ‘S’
+SELECT *
+FROM [dbo].['Employee Info$']
+WHERE [EmpFname] LIKE 'S%'
+
+--Write a query to fetch top N records.
+SELECT TOP 3 *
+FROM COPY_EMPLOYEESPOSITION
+ORDER BY [SALARY] DESC
+
+--Write a query to retrieve the EmpFname and EmpLname in a single column as “FullName”. The first name and the last name must be separated with space.
+
+SELECT 
+CONCAT ([EmpFname],' ' ,EmpLname) AS FULL_NAME
+FROM ['Employee Info$'];
+
+--Write a query find number of employees whose DOB is between 02/05/1970 to 31/12/1995 and are grouped according to gender
+
+SELECT *
+FROM [dbo].['Employee Info$']
+WHERE [DOB] BETWEEN '1970/05/02' AND '1995/12/31' AND [Gender] IN ('F')
+
+
+SELECT *
+FROM [dbo].['Employee Info$']
+WHERE [DOB] BETWEEN '1970/05/02' AND '1995/12/31' AND [Gender] IN ('F','M')
+
+--Write a query to fetch all the records from the EmployeeInfo table ordered by EmpLname in descending order and Department in the ascending order.
+
+SELECT *
+FROM [dbo].['Employee Info$']
+ORDER BY[EmpLname]  DESC 
+
+SELECT *
+FROM [dbo].['Employee Info$']
+ORDER BY [Department] ASC
+
+--Write a query to fetch details of employees whose EmpLname ends with an alphabet ‘A’ and contains five alphabets.
+
+SELECT *
+FROM [dbo].['Employee Info$']
+WHERE [EmpLname] LIKE '%A' AND [EmpLname] LIKE '_____'
+
+--Write a query to fetch details of all employees excluding the employees with first names, “Sanjay” and “Sonia” from the EmployeeInfo table.
+
+SELECT *
+FROM [dbo].['Employee Info$']
+WHERE [EmpFname] NOT IN ('SANJAY','SONIA')
+
+--Write a query to fetch details of employees with the address as “DELHI(DEL)”
+
+SELECT *
+FROM [dbo].['Employee Info$']
+WHERE [Address]= 'DELHI(DEL)'
+
+--Write a query to fetch all employees who also hold the managerial position.
+
+SELECT *
+FROM COPY_EMPLOYEESPOSITION
+WHERE [EmpPosition] = 'Manager'
+
+--Write a query to fetch the department-wise count of employees sorted by department’s count in ascending order
+
+SELECT [Department],
+count (*) AS EMPLOYEES_COUNT
+FROM [dbo].['Employee Info$']
+GROUP BY [Department] 
+ORDER BY [Department] DESC
+
+--Write a query to fecth Male employees in HR department
+
+SELECT *
+FROM [dbo].['Employee Info$']
+WHERE [Department] = 'HR' AND [Gender]= ('M')
+--Write a SQL query to retrieve employee details from EmployeeInfo table who have a date of joining in the EmployeePosition table
+SELECT 
+    [dbo].['Employee Info$'].[EmpFname],
+    [dbo].['Employee Info$'].[EmpLname],
+    [dbo].['Employee Info$'].[Department],
+    [dbo].['Employee position$'].[EmpPosition],
+    [dbo].['Employee position$'].[Salary]
+FROM [dbo].['Employee Info$']
+LEFT JOIN [dbo].['Employee position$']
+    ON[dbo].['Employee Info$'] .EmpID = [dbo].['Employee position$'].EmpID;
+
+--Write a query to retrieve two minimum and maximum salaries from the EmployeePosition table
+
+SELECT 
+    MIN(Salary) AS LowestSalary,
+    MAX(Salary) AS HighestSalary
+FROM [dbo].['Employee position$']
+
+--Write a query to create a new column for the age of the employees from the employees info table 
+
+ALTER TABLE [dbo].['Employee Info$']
+ADD AGE INT 
+
+UPDATE [dbo].['Employee Info$']
+SET [AGE]=DATEDIFF(YEAR,[DOB],GETDATE())
