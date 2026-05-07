@@ -243,7 +243,7 @@ It reflects the SQL skills I use in analytics, reporting, and data engineering e
 # Project 5
 **Title:** Workplace Safety Data Analysis Using SQL Data Manipulation Language Project
 
-**SQL Codes:** [Football Player SQL Analysis](https://github.com/AtanleyPA/AtanleyPA.github.io/blob/main/Football_Player_SQL_Analysis)
+**SQL Codes:** [DYLYTICS WORK SAFETY RECORDS](https://github.com/MOladunni/MOladunni.github.io/blob/main/DYLYTICS%20SALES%20II%20SQL)
 
 **Project Description**
 This project analyses workplace safety incidents across multiple plant locations using SQL Server. It demonstrates advanced Data Manipulation Language (DML) techniques to explore, filter, aggregate, and summarise incident data.
