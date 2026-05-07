@@ -240,112 +240,117 @@ It reflects the SQL skills I use in analytics, reporting, and data engineering e
 
 
 
-
-
-
-
-
-
-
-
-
-**SQL Skills Used:** 
-
-*Data Retrieval (SELECT):* Queried and extracted specific information from the database.
-
-*Data Aggregation (SUM, COUNT):* Calculated totals, such as sales and quantities, and counted records to analyze data trends.
-
-*Data Filtering (WHERE, BETWEEN, IN, AND):* Applied filters to select relevant data, including filtering by ranges and lists.
-
-*Data Source Specification (FROM):* Specified the tables used as data sources for retrieval
-
-*Common Table Expression(CTE):* Used to simplify complex queries by making them more readable and reusable.
-
-
-**Technology used:** SQL Server
+# Project 5
+**Title:** Workplace Safety Data Analysis Using SQL Data Manipulation Language Project
 
 **SQL Codes:** [Football Player SQL Analysis](https://github.com/AtanleyPA/AtanleyPA.github.io/blob/main/Football_Player_SQL_Analysis)
 
-**Key Insights:**
+**Project Description**
+This project analyses workplace safety incidents across multiple plant locations using SQL Server. It demonstrates advanced Data Manipulation Language (DML) techniques to explore, filter, aggregate, and summarise incident data.
 
-*Top Player Performance:* The highest-rated players represent elite talent. These players typically also have high market value.
+The goal is to uncover patterns in incident types, costs, demographics, and plant‑level performance to support safety improvement decisions.
 
-*Position-Based Strength:* Certain positions show higher average ratings. This may reflect demand or importance in gameplay.
+**SQL Skills Used:** 
+Extracting and filtering data using SELECT and WHERE clauses
 
-*College Distribution:* Some college produce significantly more players indicating strong football development systems.
+Using comparison operators (=, !=, <>, IN, NOT IN)
 
-*Market Value Trends:* Player value is closely linked to performance and potential. High-value players based on experience rating often command higher wages.
+Pattern matching with LIKE for prefix, suffix, and substring searches
 
-**Conclusion:**
+Ranking and sampling data using TOP and ORDER BY
 
-This analysis helps identify top talent, emerging players, and market trends within the football dataset. The insights can support scouting decisions, squad building, and investment strategies by focusing on high-potential players and high-value positions.
+Performing statistical analysis using SUM, AVG, MAX, MIN, COUNT
 
+Grouping and segmenting data using GROUP BY and HAVING
 
+Applying window functions (SUM OVER, ROW_NUMBER, RANK)
 
+Identifying duplicates using row‑level window functions
 
-# Project 6
+Cleaning data using conditional DELETE statements
 
-**Title: Sales & Customer Relationship Intelligence System (SQL Analysis)**
-
-
-
-**Project Overview:** The Sales & Customer Relationship Intelligence System is a comprehensive SQL-based analytics project explores relationships between salespersons, customers, and orders.
-
-This project focuses on extracting meaningful business insights from relational data by applying joins, filtering, aggregation, and advanced SQL querying techniques.
-
-It demonstrates real-world problem-solving skills relevant to data analytics, business intelligence, and database management roles.
+Performing multi‑condition filtering with AND / OR logic
 
 
-**Dataset:** The project uses three relational tables:
-
-1. *Salesman Table:* Salesman_id, Name, City, Commission
-
-2. *Customer Table:* Customer_ID, Customer_Name, City, Grade, Salesman_ID
-
-3. *Orders Table:* Order Number, Order Date, Purchase Amount, Customer ID, Salesman_id
+**Technology used:**
+SQL Server, SSMS (SQL Server Management Studio)
 
 
-**Objectives:** Analyze relationships between salespersons and customers, rack and evaluate order transactions, identify high-value customers and sales trends, and generate structured reports for business decision-making
+**Dataset Description**
+Dataset Name: Workplace Safety Data  
+Source: Internal fictional dataset for analytics practice
+Rows: ~500+
+Columns include:
 
-**Key SQL Concepts Applied**
+Date – Date of incident
 
-INNER JOIN, LEFT JOIN, FULL OUTER JOIN, CROSS JOIN (Cartesian Product)
+Department – Department where the incident occurred
 
-Filtering with WHERE conditions
+Incident Type – Burn, Fall, Cut, etc.
 
-Sorting and grouping
+Incident Cost – Financial impact of the incidents
 
-Multi-table relational queries
+Plant – Plant location (Georgia, California, Ohio, etc.)
 
-**Skills Demonstrated:** Advanced SQL query writing, data relationships & joins, business logic implementation, data exploration & reporting, problem-olving with real scenarios
+Gender – Male/Female
 
-**Technology used:** SQL Server
+Injury Location – Body part affected
 
-**SQL Codes:** [Sales & Customer Relationship Intelligence System (SQL Analysis)](https://github.com/AtanleyPA/AtanleyPA.github.io/blob/main/ales%20%26%20Customer%20Relationship%20Intelligence%20System%20(SQL%20Analysis))
-
-**Key Analysis Performed**
- 
-*Customer & Salesperson Relationship Analysis:* Identified customers and salespersons in the same city, matched customers to their assigned sales representatives.
-
-*Order Insights:* Filtered orders within specific purchase ranges, generated detailed order reports including customer and salesperson data.
-
-*Performance Evaluation:* Identified high-commission salespersons (>12%), evaluated customer grades and purchasing behavior.
-
-*Advanced Joins & Reporting:* Built comprehensive reports combining all three tables, ensured inclusion of customers without orders and salespersons without customers.
-
-*Cartesian Product Scenarios:* Explored all possible combinations of salespersons and customers, applied conditions to simulate business scenarios.
-
-**Key Findings**
-
-*Strong relationships exist between customer location and salesperson assignment.*
-
-*High commission salespersons can be identified for performance evaluation.*
-
-*Some customers may not have placed orders, indicating potential sales gaps.*
-
-*Data relationships highlight opportunities for improving customer engagement.*
+Report Type – Safety report category
 
 
-**Conclusion:** This project showcases the practical application of SQL in analyzing relational business data. By combining multiple tables and applying structured queries, it delivers meaningful insights into customer behavior, sales performance, and operational relationships. 
+**Project Objectives**
+Analyse incident patterns across different plant locations
+
+Identify high‑cost incidents and their root causes
+
+Compare male vs female injury trends
+
+Detect duplicate or repeated patterns using window functions
+
+Summarise incident costs by plant, gender, and report type
+
+Support safety managers with actionable insights for risk reduction
+
+**Key Business Insights**
+The Georgia plant has the highest number of incidents above $1,000
+Filtering revealed that Georgia consistently appears in high‑cost incident records.
+
+California and Ohio show similar incident patterns
+Using IN ('California','Ohio') showed comparable frequency and cost distribution.
+
+Burns and falls contribute the highest combined incident cost
+SUM([Incident Cost]) WHERE [Incident Type] IN ('BURN','FALL')  
+These two categories account for a significant portion of total expenses.
+
+Male employees experience more incidents than female employees
+COUNT(*) WHERE Gender = 'MALE'  
+This suggests targeted safety training may be needed.
+
+Window functions reveal cost concentration by plant
+SUM(Incident Cost) OVER(PARTITION BY Plant)  
+Some plants contribute disproportionately to total safety costs.
+
+Duplicate patterns detected using ROW_NUMBER()
+ROW_NUMBER() OVER(PARTITION BY Gender ORDER BY Gender)  
+This helps identify repeated or suspicious entries for data quality checks.
+
+Conclusion
+This project demonstrates strong analytical capability using DML operations to extract meaningful insights from workplace safety data.
+Through filtering, grouping, aggregations, and window functions, the analysis highlights:
+
+High‑risk plants
+
+Cost‑intensive incident types
+
+Gender‑based injury patterns
+
+Opportunities for targeted safety interventions
+
+The insights generated can support safety managers, HR teams, and operations leaders in reducing workplace risks and improving employee well‑being
+
+
+
+
 
 
