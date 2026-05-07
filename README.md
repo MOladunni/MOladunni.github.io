@@ -189,23 +189,65 @@ Product: Smartphone sales generate the largest share of sales and also the highe
 ![TECHDRIVE SALES REPORT.png](https://github.com/MOladunni/MOladunni.github.io/blob/main/TECHDRIVE%20SALES%20REPORT.png)
 
 
-**Title:** SQL Data Definition Language-Sales Data 
+# Project 5
+
+**Title:** SQL Data Definition Language-Sales Data and data manipulation language
 
 **SQL Code:** [DYLYTICS SALES SQL](https://github.com/MOladunni/MOladunni.github.io/blob/main/DYLYTICS%20SALES%20SQL)
 
-**SQL Skills Used:**
+**SQL Skills Used:** Advanced SQL query writing, data relationships, business logic implementation, data exploration & reporting, problem-olving with real cases.
 
-**Technology used:** SQL server
+**Technology used:** SQL server SSMS, DATE functions, Relational schema design
 
-**Project Description:** The Sales & Customer Relationship Intelligence System is a comprehensive SQL-based analytics project explores relationships between Sales persons, and Sales persons ID, geography, Age and gender.
+**Project Description:** This project simulates a sales personnel database for a DYLYTICS sales team. It includes, Creating databases, Designing tables, Inserting and transforming data, Updating and cleaning records, Managing schema changes, Applying SQL functions for business logic, Deleting outdated or invalid records.
 
-This project focuses on extracting meaningful business insights from relational data by creating database, creating table, deleting table, alter table statement, alter column, data type, filtering, aggregation, and advanced SQL querying techniques.
+A complete SQL Server project demonstrating my ability to design, build, modify, and manage relational database structures using T‑SQL.
+This project showcases real‑world database administration and data manipulation skills used in analytics, reporting, and backend data engineering.
 
-It demonstrates real-world problem-solving skills relevant to data analytics, business intelligence, and database management roles.
+**Dataset:** The dataset includes key sales persons information such as: Name, Age, geography, phone number, and gender
 
-**Dataset:** The dataset includes key player information such as: Player Name, Age, College, Team, Position, Experience, Weight, Height, Year
+**Objectives:** Analyze Workforce demographics, Regional distribution, Age‑based segmentation, and HR reporting
 
-**Objectives:** Analyze player ratings and potential, Explore age and performance trends, Evaluate overall experience level of the team, Evaluate the team net-worth.
+
+**Key Insights:**
+This project simulates a real‑world HR and Sales Operations scenario:
+
+HR teams need to track employee demographics
+
+Sales managers need to know where staff are located
+
+BI teams need clean, structured data for dashboards
+
+Data engineers must maintain and update database schemas
+
+The SQL operations here reflect the daily responsibilities of analysts and data engineers.
+
+
+**Conclusion:**
+This project demonstrates my ability to:
+
+Build and manage SQL databases
+
+Clean and transform data
+
+Apply business logic using SQL functions
+
+Maintain data quality through updates and deletes statements
+
+Work with real‑world database scenarios
+
+It reflects the SQL skills I use in analytics, reporting, and data engineering environments.
+
+
+
+
+
+
+
+
+
+
+
 
 **SQL Skills Used:** 
 
