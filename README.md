@@ -195,9 +195,51 @@ Product: Smartphone sales generate the largest share of sales and also the highe
 
 **SQL Skills Used:**
 
-**Project Description:**
-
 **Technology used:** SQL server
+
+**Project Description:** The Sales & Customer Relationship Intelligence System is a comprehensive SQL-based analytics project explores relationships between Sales persons, and Sales persons ID, geography, Age and gender.
+
+This project focuses on extracting meaningful business insights from relational data by creating database, creating table, deleting table, alter table statement, alter column, data type, filtering, aggregation, and advanced SQL querying techniques.
+
+It demonstrates real-world problem-solving skills relevant to data analytics, business intelligence, and database management roles.
+
+**Dataset:** The dataset includes key player information such as: Player Name, Age, College, Team, Position, Experience, Weight, Height, Year
+
+**Objectives:** Analyze player ratings and potential, Explore age and performance trends, Evaluate overall experience level of the team, Evaluate the team net-worth.
+
+**SQL Skills Used:** 
+
+*Data Retrieval (SELECT):* Queried and extracted specific information from the database.
+
+*Data Aggregation (SUM, COUNT):* Calculated totals, such as sales and quantities, and counted records to analyze data trends.
+
+*Data Filtering (WHERE, BETWEEN, IN, AND):* Applied filters to select relevant data, including filtering by ranges and lists.
+
+*Data Source Specification (FROM):* Specified the tables used as data sources for retrieval
+
+*Common Table Expression(CTE):* Used to simplify complex queries by making them more readable and reusable.
+
+
+**Technology used:** SQL Server
+
+**SQL Codes:** [Football Player SQL Analysis](https://github.com/AtanleyPA/AtanleyPA.github.io/blob/main/Football_Player_SQL_Analysis)
+
+**Key Insights:**
+
+*Top Player Performance:* The highest-rated players represent elite talent. These players typically also have high market value.
+
+*Position-Based Strength:* Certain positions show higher average ratings. This may reflect demand or importance in gameplay.
+
+*College Distribution:* Some college produce significantly more players indicating strong football development systems.
+
+*Market Value Trends:* Player value is closely linked to performance and potential. High-value players based on experience rating often command higher wages.
+
+**Conclusion:**
+
+This analysis helps identify top talent, emerging players, and market trends within the football dataset. The insights can support scouting decisions, squad building, and investment strategies by focusing on high-potential players and high-value positions.
+
+
+
 
 # Project 6
 
