@@ -241,7 +241,7 @@ It reflects the SQL skills I use in analytics, reporting, and data engineering e
 
 
 # Project 6
-**Title:** Workplace Safety Data Analysis Using SQL Data Manipulation Language Project
+**Title:** Workplace Safety Data Analysis Project Using SQL Data Manipulation Language 
 
 **SQL Codes:** [DYLYTICS WORK SAFETY RECORDS](https://github.com/MOladunni/MOladunni.github.io/blob/main/DYLYTICS%20SALES%20II%20SQL)
 
@@ -350,7 +350,121 @@ Opportunities for targeted safety interventions
 The insights generated can support safety managers, HR teams, and operations leaders in reducing workplace risks and improving employee well‑being
 
 
+# Project 7
+**Title:** Employee Information Data Project Using SQL Data Manipulation Language
+
+**Project Description**
+This project explores employee demographic and job‑related information using SQL Server.
+It demonstrates strong proficiency in Data Manipulation Language (DML), string functions, date functions, joins, table creation, and conditional filtering.
+The goal is to clean, transform, and analyse employee data to support management, HR decision‑making and workforce planning.
+
+**SQL Skills Demonstrated**
+Extracting and filtering employee records using SELECT, WHERE, BETWEEN, IN, and LIKE
+
+Applying string functions such as UPPER, LEFT, RIGHT, LEN, CHARINDEX, and CONCAT
+
+Using date functions like GETDATE() and DATEDIFF() to calculate age
+
+Creating new tables using SELECT INTO
+
+Performing conditional filtering with AND, OR, NOT IN
+
+Sorting data using ORDER BY
+
+Joining tables using LEFT JOIN to combine employee info with position data
+
+Using pattern matching to identify names and addresses
+
+Applying aggregate functions (COUNT, MIN, MAX) for HR analytics
+
+Creating new derived columns (e.g., Age) using ALTER TABLE and UPDATE
 
 
+**Technologies Used**
+SQL Server, SSMS (SQL Server Management Studio)
+
+Dataset Description
+1. Employee Info Table
+Contains personal and demographic information:
+
+EmpID
+
+EmpFname
+
+EmpLname
+
+Date of Birth
+
+Gender
+
+Department
+
+Address
+
+2. Employee Position Table
+Contains job‑related information:
+
+EmpID
+
+EmpPosition
+
+Salary
+
+DateOfJoining
 
 
+**Project Objectives**
+Clean and transform employee names and addresses
+
+Extract substrings and manipulate text fields
+
+Analyse employee demographics by department and gender
+
+Identify employees based on salary ranges and job roles
+
+Combine employee personal data with job position data
+
+Create new calculated fields, such as employee age
+
+Support HR analytics with grouped and sorted insights
+
+
+**Key Business Insights**
+HR department employee count
+Using COUNT(*) WHERE Department = 'HR', the HR team size is identified for workforce planning.
+
+Salary segmentation
+Employees earning between 50,000 and 100,000 were extracted to support compensation analysis.
+
+Managerial workforce identification
+Filtering by EmpPosition = 'Manager' reveals leadership distribution across the company.
+
+Gender‑based workforce distribution
+Queries show how many employees fall within specific DOB ranges grouped by gender.
+
+Address structure analysis
+String functions reveal:
+
+-City names before brackets
+
+-Postal codes inside brackets
+
+Useful for standardising address formats.
+
+Duplicate and pattern detection
+Using LIKE 'S%' and LIKE '%A' identifies naming patterns for data quality checks.
+
+Combined employee + position insights
+A LEFT JOIN merges personal and job data, enabling:
+
+-Salary analysis by department
+
+-Position distribution by gender
+
+-Employee tenure insights
+
+**Conclusion**
+This project demonstrates strong SQL capability across data cleaning, transformation, and analysis.
+By applying DML operations, string functions, joins, and date calculations, the project delivers insights that support HR operations, compensation analysis, and workforce planning and strategic management decisions.
+
+The techniques used reflect real‑world SQL tasks performed by data analysts, HR analysts, and business intelligence professionals.
